@@ -106,7 +106,7 @@ function shuffleDeck() {
         model.deck[swap_idx] = card;
     }
 
-    dealOffset = 0;
+    model.dealOffset = 0;
 }
 
 function dealCard() {
